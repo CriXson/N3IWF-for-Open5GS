@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/amf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/ausf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/n3iwf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/nrf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/nssf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/pcf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/smf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/udm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/udr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/NFs/upf" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/webconsole" vcs="Git" />
+  </component>
+</project>

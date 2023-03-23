@@ -1,0 +1,30 @@
+# Swap files
+*.swp
+
+# Toolchain
+# Golang project folder
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Build
+bin/
+log/
+vendor/
+public/
+
+# emacs/vim
+GPATH
+GRTAGS
+GTAGS
+TAGS
+tags
+cscope.*
+
+# macOS
+.DS_Store
+
+# Debug
+*.log
+*.pcap
