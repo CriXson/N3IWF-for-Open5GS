@@ -1297,9 +1297,10 @@ func HandleDownlinkNASTransport(amf *context.N3IWFAMF, message *ngapType.NGAPPDU
 	if allowedNSSAI != nil {
 		n3iwfUe.AllowedNssai = allowedNSSAI
 	}
-
+	ngapLog.Printf("IS NASPDU EMTPY ???: %d", nasPDU)
 	if nasPDU != nil {
 		// TODO: Send NAS PDU to UE
+
 		if !n3iwfUe.SignallingIPsecSAEstablished {
 			var identifier uint8
 			ikeSecurityAssociation := n3iwfUe.N3IWFIKESecurityAssociation
@@ -1322,6 +1323,7 @@ func HandleDownlinkNASTransport(amf *context.N3IWFAMF, message *ngapType.NGAPPDU
 			responseIKEMessage.Payloads.Reset()
 
 			// EAP-5G
+			ngapLog.Printf("nasPDU.VALUE: %d", nasPDU.Value)
 			responseIKEPayload.BuildEAP5GNAS(identifier, nasPDU.Value)
 
 			if err := handler.EncryptProcedure(
@@ -1331,6 +1333,7 @@ func HandleDownlinkNASTransport(amf *context.N3IWFAMF, message *ngapType.NGAPPDU
 			}
 
 			// Send IKE message to UE
+			ngapLog.Printf("responseIkeMEssage : %d", responseIKEMessage.Payloads)
 			handler.SendIKEMessageToUE(n3iwfUe.IKEConnection.Conn, n3iwfUe.IKEConnection.N3IWFAddr,
 				n3iwfUe.IKEConnection.UEAddr, responseIKEMessage)
 		} else {
@@ -1360,6 +1363,7 @@ func HandleDownlinkNASTransport(amf *context.N3IWFAMF, message *ngapType.NGAPPDU
 			if n, err := n3iwfUe.TCPConnection.Write(nasEnv); err != nil {
 				ngapLog.Errorf("Writing via IPSec signalling SA failed: %+v", err)
 			} else {
+				ngapLog.Printf("SEND NASENV TO UE :%d", nasEnv)
 				ngapLog.Trace("Forward NWu <- N2")
 				ngapLog.Tracef("Wrote %d bytes", n)
 			}

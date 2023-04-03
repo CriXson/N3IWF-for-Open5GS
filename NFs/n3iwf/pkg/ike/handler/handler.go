@@ -733,6 +733,7 @@ func HandleIKEAUTH(udpConn *net.UDPConn, n3iwfAddr, ueAddr *net.UDPAddr, message
 				ikeLog.Error("[EAP] Received an EAP payload with code other than response. Drop the payload.")
 				return
 			}
+			ikeLog.Infof("eap.Identifier: %d || ikeSecurityAssociation.LastEAPIdentifier: %p", eap.Identifier, ikeSecurityAssociation.LastEAPIdentifier)
 			if eap.Identifier != ikeSecurityAssociation.LastEAPIdentifier {
 				ikeLog.Error("[EAP] Received an EAP payload with unmatched identifier. Drop the payload.")
 				return
@@ -895,6 +896,7 @@ func HandleIKEAUTH(udpConn *net.UDPConn, n3iwfAddr, ueAddr *net.UDPAddr, message
 				}
 
 				// Send Uplink NAS Transport
+				ikeLog.Infof("UplinkNAS :%d", nasPDU)
 				ngap_message.SendUplinkNASTransport(amf, ue, nasPDU)
 			}
 		} else {

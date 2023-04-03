@@ -138,7 +138,7 @@ func listenAndServe(localAddr, remoteAddr *sctp.SCTPAddr, errChan chan<- error) 
 
 			forwardData := make([]byte, n)
 			copy(forwardData, data[:n])
-
+			ngapLog.Printf("DATA FROM AMF: %d", forwardData)
 			go ngap.Dispatch(conn, forwardData)
 		}
 	}

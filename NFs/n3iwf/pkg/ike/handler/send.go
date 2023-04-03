@@ -29,7 +29,11 @@ func SendIKEMessageToUE(udpConn *net.UDPConn, srcAddr, dstAddr *net.UDPAddr, mes
 	}
 
 	ikeLog.Trace("Sending...")
+	ikeLog.Printf("UDP PAKET TO UE: %d", pkt)
+	ikeLog.Printf("udp conn local Address: %d", udpConn.LocalAddr())
+	ikeLog.Printf("udp conn dest Address: %d", dstAddr)
 	n, err := udpConn.WriteToUDP(pkt, dstAddr)
+	ikeLog.Printf("UDP CONN RETURNED N: %d", n)
 	if err != nil {
 		ikeLog.Error(err)
 		return

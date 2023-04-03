@@ -1,0 +1,377 @@
+time="2023-04-03T13:06:21+02:00" level=info msg="N3IWF Log level is set to [debug] level" category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="set log level : info" category=NGAP component=LIB
+time="2023-04-03T13:06:21+02:00" level=info msg="set report call : false" category=NGAP component=LIB
+time="2023-04-03T13:06:21+02:00" level=info msg="set log level : info" category=Aper component=LIB
+time="2023-04-03T13:06:21+02:00" level=info msg="set report call : false" category=Aper component=LIB
+time="2023-04-03T13:06:21+02:00" level=info msg="config version [1.0.4]" category=CFG component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg=n3iwf category=App component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="N3IWF version:  \n\tNot specify ldflags (which link version) during go build\n\tgo version: go1.19.3 linux/amd64" category=App component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="Server started" category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=warning msg="Parse PKCS8 private key failed: x509: failed to parse private key (use ParsePKCS1PrivateKey instead for this key format)" category=Context component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="Parse using PKCS1..." category=Context component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=debug msg="XFRM interface xfrmi-default index is 517" category=IKE component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=warning msg="netlink.RouteAdd: file exists" category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="Setup XFRM interface xfrmi-default " category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="[N3IWF] Send NG Setup Request" category=NGAP component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="NGAP service running." category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="NAS TCP server successfully started." category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="Listening NWu user plane traffic" category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="DATA FROM AMF: [32 21 0 50 0 0 4 0 1 0 14 5 128 111 112 101 110 53 103 115 45 97 109 102 48 0 96 0 8 0 0 0 241 16 2 0 64 0 86 64 1 255 0 80 0 8 0 0 241 16 0 0 0 8]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="[N3IWF] Handle NG Setup Response" category=NGAP component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="IKE service running." category=Init component=N3IWF
+time="2023-04-03T13:06:21+02:00" level=info msg="N3IWF running..." category=Init component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[KeyExchange] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Handle IKE_SA_INIT" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="====== IKE Security Association Info =====" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Initiator's SPI: 000000000001e0f3" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Responder's  SPI: 78e6bed0cac95039" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Encryption Algorithm: 12" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_ei: 5633c342ce96d3ac410cb45126b6d9aff2dae6fc810e584c3d5fbe578580bbb6" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_er: fc0357516a96e22b5af0c509ffdbcafa0023c403852bc09be51c450a0799a2c5" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Integrity Algorithm: 2" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_ai: 15ca4ed178db81699da7819dd95e88a18c45e2f2" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_ar: a999c293a20e3058f543f3e444c55855bce90141" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_pi: 8f5c6967580bc7fbafae0aa04098614c1e36f920" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="SK_pr: 392298eb575884f9da36286d5b143b03c3bb130d" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 33 32 34 32 0 0 0 0 0 0 2 148 34 0 0 48 0 0 0 44 1 1 0 4 3 0 0 12 1 0 0 12 128 14 1 0 3 0 0 8 2 0 0 2 3 0 0 8 3 0 0 2 0 0 0 8 4 0 0 14 40 0 1 8 0 14 0 0 207 131 183 12 254 158 73 179 57 177 29 203 203 196 137 73 207 208 61 23 46 147 95 155 76 134 234 174 143 111 32 134 36 92 20 132 201 130 106 114 12 145 127 151 169 27 98 41 10 237 81 154 145 208 37 46 140 10 115 188 225 125 112 7 235 112 75 48 126 72 148 101 228 113 142 47 7 0 211 161 240 54 182 1 175 150 157 40 90 170 188 10 101 104 136 56 71 243 181 71 125 112 210 92 152 3 150 173 51 24 9 171 249 173 107 225 146 38 87 232 197 135 156 147 252 143 9 137 158 199 226 78 163 44 70 45 120 34 217 187 254 235 52 194 238 136 32 97 59 57 70 209 173 39 103 236 234 167 59 152 175 148 93 11 174 200 142 92 129 0 145 55 154 173 17 141 237 126 229 42 13 16 191 83 231 148 65 157 170 152 15 125 233 56 164 17 148 75 111 196 254 51 8 4 237 243 76 20 137 5 94 116 138 110 80 95 191 133 70 221 194 205 3 252 21 29 29 198 41 20 70 90 127 99 245 73 253 253 27 10 82 157 123 98 27 54 36 157 99 57 160 236 241 204 205 11 41 0 1 4 121 163 193 55 26 249 243 162 65 126 64 5 221 90 19 170 187 95 217 179 171 91 109 16 150 46 42 116 250 82 251 128 228 184 210 225 164 18 132 81 83 80 31 218 224 255 2 133 193 190 29 238 166 214 140 37 233 54 112 204 190 181 153 124 31 155 164 29 210 48 58 183 108 111 119 50 58 133 178 63 142 13 68 255 85 153 239 146 192 193 183 220 50 145 67 22 169 52 92 14 209 16 169 53 253 212 47 220 235 137 165 134 135 214 20 76 136 118 103 109 158 152 175 97 230 186 217 74 144 87 21 8 104 107 164 77 97 177 4 71 99 241 255 40 227 48 20 194 229 118 33 195 97 158 185 215 81 27 137 181 149 173 17 187 91 223 105 31 189 183 169 174 217 215 46 175 188 36 219 250 160 163 150 184 219 61 123 202 143 131 164 163 31 155 179 117 112 155 0 74 60 150 149 95 53 173 60 98 149 8 217 123 9 48 107 28 241 73 180 165 130 87 224 97 226 13 207 23 177 134 210 64 181 172 167 10 89 170 26 100 28 155 152 51 43 95 162 88 117 97 8 87 53 93 104 241 41 0 0 30 0 0 64 4 0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 10 0 0 0 1 244 0 0 0 30 0 0 64 5 0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 10 45 0 1 1 244]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP CONN RETURNED N: 660" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Handle IKE_AUTH" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Identification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Ecoding initiator for later IKE authentication" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Parsing security association" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Certificate] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Authentication] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 46 32 35 32 0 0 0 1 0 0 5 124 36 0 5 96 132 208 145 32 70 172 217 185 10 11 160 64 31 125 179 172 131 201 14 172 160 168 78 35 53 252 58 214 6 193 108 48 225 0 1 60 201 185 95 212 234 127 149 41 186 175 49 50 162 61 220 114 51 118 163 77 94 12 33 175 21 95 202 121 242 143 51 24 201 125 215 45 234 44 211 37 92 70 71 28 234 198 63 178 200 159 238 175 124 107 215 2 81 71 249 233 72 142 146 46 82 23 233 168 226 134 189 176 49 66 208 43 86 94 238 210 105 135 121 15 239 71 149 223 72 197 159 59 160 229 170 169 73 134 40 183 231 96 172 77 171 52 122 157 229 181 82 115 225 24 239 97 65 143 126 7 136 99 70 98 95 55 231 134 228 252 56 14 239 73 91 146 6 12 74 238 24 156 34 63 115 232 140 98 115 192 108 184 69 78 31 22 64 179 180 23 97 143 155 151 227 215 209 129 53 202 24 45 61 180 123 202 132 58 116 47 141 175 57 178 1 218 51 19 105 61 238 45 111 163 36 106 54 85 204 136 63 192 5 197 18 166 201 63 237 115 106 40 86 165 114 69 217 130 249 36 253 116 201 44 199 222 100 240 143 106 21 40 82 124 254 195 111 25 178 115 62 220 244 201 233 5 224 168 158 255 4 145 166 215 137 78 241 146 24 197 1 161 88 218 117 136 93 32 37 127 31 178 70 170 230 206 48 11 111 132 48 159 141 95 12 172 20 210 129 196 148 209 122 22 176 142 166 142 217 123 96 183 253 31 139 80 216 47 171 11 253 0 62 135 219 26 160 194 152 82 109 19 124 33 33 49 151 199 172 200 28 166 165 182 157 119 191 15 105 69 125 239 155 235 88 104 52 254 74 116 131 145 101 253 26 71 228 7 182 60 1 52 238 213 69 14 171 67 133 194 133 80 150 126 90 80 154 112 119 215 103 13 102 107 124 171 191 161 135 150 252 139 234 69 151 5 39 159 47 138 62 188 100 240 247 252 48 79 25 238 116 72 192 74 180 148 49 93 20 134 156 137 100 182 84 50 129 54 39 3 142 127 66 109 156 2 48 134 172 107 183 98 171 11 234 97 16 137 198 82 10 142 94 129 251 151 33 243 5 70 29 45 82 40 188 96 32 103 238 231 53 22 102 65 178 242 69 200 207 32 239 37 143 229 161 149 9 232 46 154 89 83 178 65 132 85 34 163 133 158 75 80 75 163 185 112 224 146 195 217 97 100 174 195 68 47 32 226 201 234 249 38 27 232 214 160 212 60 183 151 167 23 129 78 204 205 83 148 27 159 115 67 227 15 186 83 141 106 89 125 144 108 91 44 102 183 118 108 212 115 216 118 18 249 56 145 76 140 70 149 126 132 156 186 132 170 151 53 248 121 90 219 88 193 133 61 85 117 29 206 122 88 187 43 100 237 245 108 77 75 14 30 43 241 29 119 27 26 230 31 13 227 175 131 183 47 81 57 49 208 108 88 146 3 8 169 106 102 255 197 65 225 254 14 10 191 87 114 179 93 174 227 220 43 16 116 250 166 102 178 223 50 205 177 103 47 224 58 251 154 171 185 213 11 138 251 173 2 60 28 43 180 194 154 111 61 92 230 173 203 192 38 8 98 169 9 23 165 183 139 56 233 56 122 213 241 235 193 203 92 117 91 3 71 12 72 209 193 26 114 61 96 25 2 76 127 179 38 147 35 70 245 200 44 84 8 160 137 0 92 56 103 154 80 211 192 168 147 115 251 37 65 113 70 28 228 221 4 41 191 57 163 155 215 51 162 48 69 181 198 208 247 248 189 244 8 148 77 148 38 241 202 125 157 106 61 39 131 222 74 44 196 122 19 132 246 107 1 24 216 28 46 83 232 63 73 72 191 144 18 51 184 194 78 105 253 121 118 95 131 131 188 72 129 113 32 231 176 37 159 57 20 237 121 128 128 191 119 212 87 128 131 130 198 97 86 233 45 134 155 123 55 193 209 14 31 20 21 109 2 179 226 236 1 149 51 6 6 9 164 155 81 220 173 165 175 188 83 225 87 227 214 132 179 241 246 37 122 219 44 42 198 98 158 53 26 80 131 59 33 164 199 102 83 226 22 224 175 113 58 132 164 88 19 69 64 62 94 210 12 70 188 116 63 213 169 146 92 92 198 126 79 40 122 188 40 119 141 246 132 89 247 178 8 199 162 121 33 64 255 215 121 193 127 7 148 204 211 248 140 94 12 223 48 222 237 195 252 18 38 154 143 59 27 111 225 253 157 22 85 48 14 92 95 242 115 220 131 141 182 148 90 148 10 35 91 227 100 244 167 211 233 135 109 35 214 102 43 6 65 207 33 253 234 49 124 75 228 194 9 154 18 64 1 3 252 34 235 84 69 137 111 211 137 54 186 227 202 170 52 218 105 27 162 63 147 60 112 136 176 169 70 84 244 192 179 125 166 116 112 71 51 152 246 0 138 22 234 216 225 181 207 218 151 131 89 187 216 95 209 105 147 222 252 3 227 114 199 139 242 75 113 138 178 130 165 180 106 210 162 236 118 63 71 19 198 138 79 251 235 189 108 193 107 147 139 205 150 88 17 215 208 113 44 195 108 87 160 76 206 184 135 143 5 95 151 116 57 31 102 115 98 55 208 255 145 237 75 63 181 69 100 170 87 190 57 99 198 86 136 89 17 228 233 1 126 227 224 239 80 132 226 8 0 9 188 188 160 210 20 88 62 219 195 71 243 89 71 168 221 254 36 167 250 155 2 133 38 76 116 142 53 89 121 106 172 10 37 48 53 13 19 114 19 205 94 198 42 42 233 186 254 146 206 189 36 170 194 5 66 136 36 14 82 187 171 219 80 172 88 122 166 65 37 70 173 43 6 228 183 45 77 75 50 1 110 34 143 177 146 78 31 126 138 99 133 60 79 49 229 92 142 130 223 51 254 125 82 5 193 78 195 240 33 155 78 111 78 25 155 15 2 31 73 120 182 163 112 139 116 9 207 251 52 37 51 123 130 13 168 227 9 170 129 138 82 231 61 228 163 17 235 210 18 230 98 147 154 16 69 65 162 102 26 206 135 139 237 213 243 87 187 207 135 231 113]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP CONN RETURNED N: 1404" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Handle IKE_AUTH" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="===== Unmarshal EAP5G Data (Ref: TS24.502 Fig. 9.3.2.2.2-1) =====" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Message-Id: 2" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="AN-parameters length: 20" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Parsing AN-parameters...: [ 1  6  0  241  16  2  0  64  4  1  4  2  3  0  1  1  3  2  1  2]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="-> Parameter type: GUAMI" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Unmarshal GUAMI: 00 00 f1 10 02 00 40" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tGUAMI: PLMNIdentity[{00 f1 10}], AMFRegionID[{{02  8}}], AMFSetID[{{00 40  a}}], AMFPointer[{{00  6}}]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="-> Parameter type: ANParametersTypeEstablishmentCause" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Unmarshal ANParametersTypeEstablishmentCause: 04" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="-> Parameter type: ANParametersTypeSelectedPLMNID" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Unmarshal SelectedPLMNID: 00 00 01 01" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tSelectedPLMNID: 00 01 01" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="-> Parameter type: ANParametersTypeRequestedNSSAI" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Unmarshal SNSSAI: 01 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\t\t\tSST: 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\t\t\tSD: nil" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="nasPDULength: 23" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="nasPDUField: [ 126  0  65  121  0  13  1  0  241  16  0  0  0  0  0  0  0  1  16  46  2  128  32]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Select AMF with the following AN parameters:" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tGUAMI: PLMNIdentity[{00 f1 10}], AMFRegionID[{{02  8}}], AMFSetID[{{00 40  a}}], AMFPointer[{{00  6}}]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tSelectedPLMNID: [ 0  1  1]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tRequestedNSSAI:" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\tRequestedNSSAI:" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\t\tSNSSAI 1:" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\t\t\tSST: 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="\t\t\tSD: nil" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Selected AMF Name: open5gs-amf0" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[N3IWF] Send Initial UE Message" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="DATA FROM AMF: [0 4 64 36 0 0 3 0 10 0 2 0 2 0 85 0 2 0 0 0 38 0 17 16 126 0 86 1 2 0 0 120 0 6 1 102 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="IS NASPDU EMTPY ???: &{[126 0 86 1 2 0 0 120 0 6 1 102 0 6 13 32]}" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="nasPDU.VALUE: [126 0 86 1 2 0 0 120 0 6 1 102 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="responseIkeMEssage : [824636337728]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 46 32 35 32 0 0 0 2 0 0 0 108 48 0 0 80 244 156 128 198 232 187 253 176 146 93 71 133 109 172 3 216 14 82 16 0 175 10 96 137 189 29 30 59 177 71 174 80 124 223 3 237 142 239 176 181 173 243 204 230 17 132 127 196 105 3 39 157 27 219 239 69 45 205 158 154 168 21 34 3 150 106 249 72 5 173 226 204 99 114 90 66]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP CONN RETURNED N: 108" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Handle IKE_AUTH" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="===== Unmarshal EAP5G Data (Ref: TS24.502 Fig. 9.3.2.2.2-1) =====" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="Message-Id: 2" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="AN-parameters length: 0" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="nasPDULength: 227" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=debug msg="nasPDUField: [ 126  0  87  120  0  220  2  102  0  220  13  0  22  3  1  0  209  1  0  0  205  3  3  0  0  0  0  182  67  162  47  123  239  127  222  201  66  193  227  114  231  247  10  98  161  180  129  101  11  87  134  0  228  74  41  0  0  90  204  169  204  168  192  43  192  47  192  44  192  48  192  172  192  173  192  174  192  175  192  35  192  39  192  36  192  40  192  9  192  19  192  10  192  20  192  45  192  49  192  46  192  50  192  37  192  41  192  38  192  42  192  4  192  14  192  5  192  15  0  156  0  157  192  156  192  157  192  160  192  161  0  60  0  61  0  47  0  53  192  8  192  18  192  3  192  13  0  10  1  0  0  74  255  1  0  1  0  0  0  0  14  0  12  0  0  9  108  111  99  97  108  104  111  115  116  0  1  0  1  2  0  13  0  22  0  20  4  3  3  3  5  3  6  3  2  3  4  1  3  1  5  1  6  1  2  1  0  10  0  10  0  8  0  23  0  24  0  25  0  29  0  11  0  2  1  0  0]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[N3IWF] Send Uplink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="DATA FROM AMF: [0 4 64 24 0 0 3 0 10 0 2 0 2 0 85 0 2 0 0 0 38 0 5 4 126 0 68 9]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="DATA FROM AMF: [0 41 0 16 0 0 2 0 114 0 4 0 2 0 0 0 15 64 1 64]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[N3IWF] Handle UE Context Release Command" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=warning msg="Cause Nas[0]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="IS NASPDU EMTPY ???: &{[126 0 68 9]}" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="nasPDU.VALUE: [126 0 68 9]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="responseIkeMEssage : [824634379104]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 46 32 35 32 0 0 0 3 0 0 0 92 48 0 0 64 246 94 190 136 124 157 37 184 110 25 159 1 174 202 183 18 229 107 191 63 131 40 176 174 197 221 171 91 213 124 117 187 58 44 172 208 169 72 84 92 9 121 65 0 225 1 212 8 117 233 110 149 157 196 159 112 197 249 129 7]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP CONN RETURNED N: 92" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Delete] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 46 32 37 0 0 0 0 0 0 0 0 76 42 0 0 48 0 110 42 87 98 147 210 69 10 10 181 173 237 103 234 183 198 180 109 245 42 97 129 154 100 171 225 8 254 192 203 153 20 126 247 247 251 106 104 126 74 5 21 17]" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:25+02:00" level=info msg="UDP CONN RETURNED N: 76" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[KeyExchange] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Nonce] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Handle IKE_SA_INIT" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="====== IKE Security Association Info =====" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Initiator's SPI: 000000000001e0f3" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Responder's  SPI: 3a352bee1a8c61ed" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Encryption Algorithm: 12" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_ei: 55265fa6c43a5c7bb6a8a6a48fe92d72e065e817678a2b8b623008b6e4541cdc" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_er: 8fbd332d7407b033dbcf0eec2ea1da1ed8d1e916bac8e526aadb5013ba7ffecd" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Integrity Algorithm: 2" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_ai: 2807a75035f8abd4efc0310dd5abc07ec06d8e3c" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_ar: c66f3b9430d00c354757a6daa88485083e995353" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_pi: 3a293c1a1f9197b00b11ca27077b5e6365c57dbc" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="SK_pr: f86fc314e853417168b01981d021bbb279ef5190" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[SecurityAssociation] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[KeyExchange] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Nonce] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Notification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 33 32 34 32 0 0 0 0 0 0 2 148 34 0 0 48 0 0 0 44 1 1 0 4 3 0 0 12 1 0 0 12 128 14 1 0 3 0 0 8 2 0 0 2 3 0 0 8 3 0 0 2 0 0 0 8 4 0 0 14 40 0 1 8 0 14 0 0 237 253 190 64 39 142 59 161 6 255 227 243 84 60 190 161 221 34 186 156 40 144 34 164 123 123 14 255 172 142 86 191 129 147 215 30 35 64 158 104 14 28 33 50 9 53 170 19 126 96 74 22 39 44 247 95 12 94 24 137 234 166 213 189 117 155 1 213 103 34 233 239 196 129 92 250 24 7 32 104 229 158 31 202 151 247 201 15 24 182 201 18 3 165 7 193 16 78 63 4 130 203 211 210 136 133 237 70 108 71 176 235 139 220 43 233 220 50 11 251 88 82 27 186 95 230 34 127 171 233 237 13 28 22 75 124 51 168 125 100 225 12 122 19 215 49 207 242 44 158 4 112 115 30 142 45 28 221 205 131 51 239 160 119 235 110 255 253 115 248 239 186 73 85 124 89 146 231 33 0 19 37 109 138 68 105 194 185 199 37 233 247 152 101 209 149 209 162 119 51 100 51 44 180 254 245 134 148 226 100 234 209 12 244 96 143 131 206 116 245 98 17 170 111 58 50 165 230 122 40 0 84 130 99 92 201 131 251 251 26 223 248 54 16 163 217 31 152 102 122 200 211 45 21 101 68 41 0 1 4 214 152 44 111 219 17 140 111 171 231 21 10 133 149 229 254 254 204 121 114 90 87 117 169 38 185 102 16 219 11 196 67 189 107 64 134 79 213 227 49 49 58 68 254 51 135 65 157 220 199 30 238 50 104 210 75 77 105 41 155 117 66 9 132 67 216 109 173 5 107 44 131 229 50 57 108 168 34 72 245 242 63 121 243 117 210 14 143 16 80 32 93 201 195 58 84 59 78 234 139 215 30 234 83 156 142 81 95 235 221 86 13 201 127 87 239 141 217 224 113 121 146 71 14 68 159 6 7 190 138 5 170 139 100 4 131 50 221 30 26 48 64 228 180 176 232 98 104 2 94 126 124 104 70 173 56 18 189 157 203 147 74 202 143 137 58 151 171 93 52 94 80 169 246 137 25 159 143 52 161 141 202 255 120 54 66 166 32 9 54 217 126 79 17 11 134 221 193 32 253 226 102 197 134 66 238 77 247 240 39 165 24 48 196 235 222 191 33 113 41 80 71 56 219 159 6 85 177 96 207 51 20 208 5 124 171 145 107 123 233 189 136 56 201 184 116 224 150 10 223 104 222 109 132 124 153 41 0 0 30 0 0 64 4 0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 10 0 0 0 1 244 0 0 0 30 0 0 64 5 0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 10 45 0 1 1 244]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP CONN RETURNED N: 660" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Handle IKE_AUTH" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Identification] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[SecurityAssociation] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[TrafficSelector] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Ecoding initiator for later IKE authentication" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Parsing security association" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Received traffic selector initiator from UE" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Identification] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Certificate] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Authentication] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 46 32 35 32 0 0 0 1 0 0 5 124 36 0 5 96 53 148 203 9 109 216 246 93 88 219 2 146 154 199 14 12 226 189 203 230 153 20 129 35 59 202 250 42 218 150 183 254 235 196 44 253 170 169 80 43 46 137 55 235 93 146 225 83 100 120 37 77 110 75 90 221 66 29 250 114 126 240 111 146 156 56 70 222 143 176 126 60 226 46 20 190 199 7 62 43 250 34 144 188 140 55 222 232 216 7 88 41 195 20 242 254 198 234 122 165 78 39 219 224 219 209 199 236 244 223 0 195 247 242 246 117 119 112 187 36 52 129 167 147 237 35 35 236 131 166 154 146 4 95 118 15 53 104 133 201 207 114 245 123 130 73 40 215 145 233 31 149 195 110 111 25 188 123 139 195 58 102 210 159 180 192 15 242 112 81 120 156 237 49 154 2 216 115 76 101 166 230 114 8 216 142 86 43 93 119 185 120 159 215 59 188 110 64 47 77 253 151 18 44 63 18 219 241 165 158 72 137 52 11 60 40 196 64 5 162 78 216 77 33 104 93 68 131 112 136 222 223 20 191 155 144 150 75 166 96 73 30 255 50 52 10 176 6 140 67 85 46 207 35 221 255 119 140 73 197 4 63 123 225 77 145 48 209 247 179 58 50 230 136 69 226 24 166 221 195 40 192 193 177 247 197 218 182 183 23 8 108 93 202 176 44 4 173 195 5 207 226 47 231 237 252 79 128 9 30 251 249 44 67 118 131 71 174 132 18 220 50 194 210 63 22 11 21 140 111 141 249 81 45 54 112 160 61 97 223 17 243 157 247 216 254 80 14 185 139 222 254 145 106 100 215 93 66 60 23 232 121 136 225 25 40 115 102 58 197 169 144 94 174 123 48 120 132 0 5 235 231 112 27 94 74 138 239 85 142 122 82 4 196 108 130 4 104 124 22 165 47 180 60 134 226 206 129 8 44 175 205 41 32 131 88 239 99 172 38 11 75 7 133 87 147 200 40 226 35 228 250 227 139 125 8 57 93 145 230 34 47 177 69 45 182 146 84 91 218 51 190 234 130 245 159 186 42 201 131 231 152 225 96 222 80 69 171 208 48 158 58 154 236 245 218 199 130 182 9 93 150 212 160 193 118 239 184 166 188 234 131 130 147 8 248 204 176 138 231 245 21 79 54 24 109 89 9 108 103 191 177 122 22 88 32 196 71 5 43 94 210 223 130 17 133 52 103 77 35 220 180 14 67 213 63 209 171 180 133 111 249 4 115 67 239 32 63 130 51 170 199 103 124 20 212 163 96 196 255 45 2 57 98 118 200 40 183 209 18 78 234 255 148 169 12 96 140 42 49 58 194 177 192 42 129 18 55 251 4 115 71 38 60 152 175 172 234 246 101 39 217 251 115 105 166 134 205 219 53 181 102 141 105 159 150 209 211 4 45 7 52 171 12 9 174 146 199 169 107 163 150 209 64 115 35 110 249 241 164 236 55 255 63 239 10 101 26 27 161 25 56 18 177 113 33 81 166 64 128 162 14 79 23 160 228 124 4 117 220 159 108 28 176 54 90 152 224 25 22 226 76 133 145 97 84 81 236 78 43 130 64 150 167 114 216 66 146 151 181 35 98 16 38 244 65 125 126 32 226 50 104 147 223 26 152 46 189 161 90 66 79 126 196 166 72 235 80 249 62 163 238 65 205 33 144 85 52 17 192 18 125 109 156 187 36 41 58 1 145 14 43 62 248 179 200 125 91 192 193 34 18 71 37 187 179 1 17 184 57 42 26 14 132 189 176 53 212 77 17 29 6 8 3 156 192 233 162 130 93 204 144 206 137 217 158 222 171 165 202 130 30 38 161 116 122 67 26 86 37 73 13 240 2 181 140 135 35 160 33 157 169 145 189 211 242 97 29 28 0 101 117 34 211 83 203 247 83 106 99 253 3 136 33 23 211 188 118 165 72 21 242 60 195 217 177 211 163 205 44 94 191 21 147 254 27 114 195 135 10 73 117 12 184 226 251 200 63 195 154 97 71 55 159 51 58 155 120 5 85 230 113 234 1 48 96 7 17 81 248 75 28 105 208 233 61 163 67 120 36 175 61 109 148 152 149 170 85 240 66 129 60 173 138 251 81 174 93 140 225 199 127 249 149 78 241 170 199 180 113 16 148 221 176 7 176 209 167 225 197 82 64 120 117 209 92 117 104 97 203 92 113 203 103 68 69 195 218 29 59 52 20 102 192 238 205 233 115 195 86 123 104 174 76 139 127 200 19 146 252 70 184 182 18 105 0 202 25 113 101 213 254 241 16 181 43 118 249 118 222 45 135 71 212 200 105 81 192 94 243 132 250 108 213 6 231 153 204 78 156 147 224 150 210 159 226 229 225 255 188 238 161 135 73 139 136 244 8 75 92 235 10 28 118 159 29 19 250 245 21 191 139 108 234 21 60 116 67 239 178 213 66 83 150 25 0 157 114 34 53 156 41 1 32 206 216 32 149 227 250 106 123 197 115 19 222 118 174 57 237 252 92 152 148 228 146 199 86 51 16 207 50 75 210 174 113 248 142 71 194 33 69 182 56 124 158 201 150 157 119 189 88 27 42 80 129 112 66 233 39 202 11 144 232 3 16 98 82 255 75 90 157 96 61 163 173 83 8 107 56 212 180 103 157 142 26 173 107 106 153 36 79 18 62 161 53 53 163 193 78 79 198 51 60 119 246 14 177 28 190 180 116 69 206 216 230 62 251 59 161 25 245 81 172 63 224 177 146 190 167 236 175 139 74 243 156 145 83 48 135 85 192 127 34 41 252 249 199 164 145 125 63 101 34 73 29 104 7 98 106 5 107 249 135 139 238 201 49 108 148 124 210 249 51 171 15 235 44 134 235 189 101 39 223 68 213 104 59 114 206 93 9 212 247 56 251 152 192 18 9 216 105 197 89 191 54 255 141 175 186 52 146 53 78 203 69 160 77 241 133 229 96 232 23 0 219 224 200 215 93 231 125 195 138 124 14 26 107 118 27 19 115 26 118 219 157 243 134 78 55 26 130 9 172 70 113 57 58 26 88 103 139 234 164 7 89 230 4 17 37 53 215 7 157 54 133 183 181 158 130 139 220 166 213 155 241 79 112 19 242 38 99]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP CONN RETURNED N: 1404" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Handle IKE_AUTH" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Decoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP][Expanded] unmarshal(): Start unmarshalling received bytes" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="===== Unmarshal EAP5G Data (Ref: TS24.502 Fig. 9.3.2.2.2-1) =====" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Message-Id: 2" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="AN-parameters length: 20" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Parsing AN-parameters...: [ 1  6  0  241  16  2  0  64  4  1  4  2  3  0  1  1  3  2  1  2]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="-> Parameter type: GUAMI" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Unmarshal GUAMI: 00 00 f1 10 02 00 40" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tGUAMI: PLMNIdentity[{00 f1 10}], AMFRegionID[{{02  8}}], AMFSetID[{{00 40  a}}], AMFPointer[{{00  6}}]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="-> Parameter type: ANParametersTypeEstablishmentCause" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Unmarshal ANParametersTypeEstablishmentCause: 04" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="-> Parameter type: ANParametersTypeSelectedPLMNID" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Unmarshal SelectedPLMNID: 00 00 01 01" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tSelectedPLMNID: 00 01 01" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="-> Parameter type: ANParametersTypeRequestedNSSAI" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Unmarshal SNSSAI: 01 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\t\t\tSST: 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\t\t\tSD: nil" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="nasPDULength: 23" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="nasPDUField: [ 126  0  65  121  0  13  1  0  241  16  0  0  0  0  0  0  0  1  16  46  2  128  32]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="Select AMF with the following AN parameters:" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tGUAMI: PLMNIdentity[{00 f1 10}], AMFRegionID[{{02  8}}], AMFSetID[{{00 40  a}}], AMFPointer[{{00  6}}]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tSelectedPLMNID: [ 0  1  1]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tRequestedNSSAI:" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\tRequestedNSSAI:" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\t\tSNSSAI 1:" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\t\t\tSST: 02" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=debug msg="\t\t\tSD: nil" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Selected AMF Name: open5gs-amf0" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[N3IWF] Send Initial UE Message" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="DATA FROM AMF: [0 41 0 16 0 0 2 0 114 0 4 0 2 0 0 0 15 64 1 64]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[N3IWF] Handle UE Context Release Command" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=warning msg="Cause Nas[0]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Delete] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 120 230 190 208 202 201 80 57 46 32 37 0 0 0 0 0 0 0 0 76 42 0 0 48 250 139 232 2 16 237 186 240 56 169 190 156 254 180 84 135 120 170 202 176 149 131 163 238 192 10 185 63 226 87 227 231 60 143 153 220 55 96 143 234 8 71 156 232]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP CONN RETURNED N: 76" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="DATA FROM AMF: [0 4 64 36 0 0 3 0 10 0 2 0 3 0 85 0 2 0 1 0 38 0 17 16 126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="IS NASPDU EMTPY ???: &{[126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]}" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="nasPDU.VALUE: [126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="responseIkeMEssage : [824638821920]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 46 32 35 32 0 0 0 2 0 0 0 108 48 0 0 80 203 172 58 168 234 146 239 174 148 118 103 9 31 24 107 219 163 239 38 209 177 68 28 2 8 208 246 209 74 141 65 56 251 101 141 52 93 238 76 66 148 69 47 128 6 0 92 82 162 158 22 53 196 17 225 94 193 160 31 73 109 170 185 92 169 215 137 11 89 144 234 254 124 25 128 150]" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:32+02:00" level=info msg="UDP CONN RETURNED N: 108" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="DATA FROM AMF: [0 4 64 36 0 0 3 0 10 0 2 0 3 0 85 0 2 0 1 0 38 0 17 16 126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="IS NASPDU EMTPY ???: &{[126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]}" category=NGAP component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="nasPDU.VALUE: [126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="responseIkeMEssage : [824634383680]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 46 32 35 32 0 0 0 2 0 0 0 108 48 0 0 80 236 119 187 205 239 136 250 106 204 2 90 205 229 217 178 4 65 44 141 52 12 178 7 215 127 118 118 73 250 19 252 72 117 217 95 218 199 229 149 127 62 146 49 17 50 49 22 57 207 33 28 67 222 156 44 53 192 152 100 168 43 31 45 95 95 234 100 116 40 250 134 251 173 53 190 39]" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:38+02:00" level=info msg="UDP CONN RETURNED N: 108" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="DATA FROM AMF: [0 4 64 36 0 0 3 0 10 0 2 0 3 0 85 0 2 0 1 0 38 0 17 16 126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="[N3IWF] Handle Downlink NAS Transport" category=NGAP component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="IS NASPDU EMTPY ???: &{[126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]}" category=NGAP component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="nasPDU.VALUE: [126 0 86 2 2 0 0 120 0 6 1 103 0 6 13 32]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="[EAP] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="[EAP][Expanded] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="responseIkeMEssage : [824637254656]" category=NGAP component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="Encoding IKE message" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="Encoding IKE payloads" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="[Encrypted] marshal(): Start marshalling" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="UDP PAKET TO UE: [0 0 0 0 0 1 224 243 58 53 43 238 26 140 97 237 46 32 35 32 0 0 0 2 0 0 0 108 48 0 0 80 247 88 183 109 64 204 88 232 222 158 92 121 7 206 91 142 4 186 234 150 173 200 171 109 228 81 25 55 143 184 245 105 74 169 136 69 35 47 144 208 72 179 94 12 155 175 171 224 246 39 1 210 49 178 89 88 195 206 95 75 254 181 150 253 84 51 78 227 208 114 237 206 179 43 114 34]" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="udp conn local Address: &{[10 0 0 0] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="udp conn dest Address: &{[10 45 0 1] 500 %!d(string=)}" category=IKE component=N3IWF
+time="2023-04-03T13:06:44+02:00" level=info msg="UDP CONN RETURNED N: 108" category=IKE component=N3IWF
+time="2023-04-03T13:06:46+02:00" level=fatal msg="panic: runtime error: invalid memory address or nil pointer dereference\ngoroutine 20 [running]:\nruntime/debug.Stack()\n\t/usr/local/go/src/runtime/debug/stack.go:24 +0x65\ngithub.com/free5gc/n3iwf/internal/ngap/service.listenAndServe.func1()\n\t/home/julius/dev/f5gc/free5gc/NFs/n3iwf/internal/ngap/service/service.go:50 +0x39\npanic({0x97ff40, 0xe88e00})\n\t/usr/local/go/src/runtime/panic.go:884 +0x212\ngithub.com/free5gc/n3iwf/internal/ngap/service.listenAndServe(0x0?, 0x0?, 0x0?)\n\t/home/julius/dev/f5gc/free5gc/NFs/n3iwf/internal/ngap/service/service.go:121 +0x705\ncreated by github.com/free5gc/n3iwf/internal/ngap/service.Run\n\t/home/julius/dev/f5gc/free5gc/NFs/n3iwf/internal/ngap/service/service.go:36 +0xfa\n" category=NGAP component=N3IWF

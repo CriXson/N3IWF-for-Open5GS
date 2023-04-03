@@ -223,7 +223,7 @@ func SendUplinkNASTransport(
 	ue *context.N3IWFUe,
 	nasPdu []byte) {
 	ngaplog.Infoln("[N3IWF] Send Uplink NAS Transport")
-
+	ngaplog.Infof("[N3IWF] Send Uplink NAS Transport NASODU: %d ", nasPdu)
 	if len(nasPdu) == 0 {
 		ngaplog.Errorln("NAS Pdu is nil")
 		return

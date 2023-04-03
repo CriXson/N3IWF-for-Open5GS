@@ -161,5 +161,6 @@ func forward(ue *context.N3IWFUe, packet []byte) {
 	}()
 
 	nwucpLog.Trace("Forward NWu -> N2")
+	nwucpLog.Infof("packet to amf %d", packet)
 	message.SendUplinkNASTransport(ue.AMF, ue, packet)
 }
