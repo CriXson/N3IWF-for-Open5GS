@@ -15,6 +15,10 @@ make amf
 ```
 For reference [Prerequisites](https://free5gc.org/guide/3-install-free5gc/#a-prerequisites).
 
+Update the N3IWF config file.
+1. Set the AMF IP
+2. Set the ogstun ip as the IKEBindAddress (if Open5GS default ogstun ip is used no changes needed)
+
 For document, please reference to [Documentation](https://github.com/free5gc/free5gc/wiki).
 
 ## License
