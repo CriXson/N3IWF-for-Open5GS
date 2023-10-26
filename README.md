@@ -11,7 +11,7 @@ sudo ./bin/n3iwf
 If you want to build the N3IWF
 ```console
 cd ~/free5gc
-make amf
+make n3iwf
 ```
 For a detailed manual, please reference to [Prerequisites](https://free5gc.org/guide/3-install-free5gc/#a-prerequisites).
 
